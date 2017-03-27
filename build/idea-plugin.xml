@@ -1,0 +1,9 @@
+<idea-plugin>
+  <id>com.alexpovar.RiderCleanupFile</id>
+  <name>Rider Cleanup File</name>
+  <description>RiderCleanupFile</description>
+  <version>1.0.0</version>
+  <idea-version since-build="171.3085"/>
+  <extensions defaultExtensionNs="com.intellij" />
+  <depends>com.intellij.modules.rider</depends>
+</idea-plugin>
