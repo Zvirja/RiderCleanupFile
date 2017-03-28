@@ -4,7 +4,7 @@
   <description>Quick action for Rider to add "Cleanup this file" quick action.</description>
   <version>1.0.0</version>
   <vendor url="https://github.com/Zvirja/RiderCleanupFile" >Alex Povar</vendor>
-  <idea-version since-build="171.3085"/>
+  <idea-version since-build="171.3085" />
   <extensions defaultExtensionNs="com.intellij" />
   <depends>com.intellij.modules.rider</depends>
 </idea-plugin>

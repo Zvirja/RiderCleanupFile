@@ -43,7 +43,7 @@ if(Test-Path $tmpDirPath) {
 New-Item -ItemType Directory -Force -Path $pluginDirPath |Out-Null
 New-Item -ItemType Directory -Force -Path (Join-Path $pluginDirPath "META-INF") |Out-Null
 
-& .\nuget.exe pack "$projectName.nuspec" -BasePath "..\code\$projectName\bin\$config\" -OutputDirectory $pluginDirPath -Version $version
+& .\nuget.exe pack "$projectName.nuspec" -BasePath "..\code\$projectName\bin\$config\net45\" -OutputDirectory $pluginDirPath -Version $version
 
 $ideaPluginMetaPath = Join-Path $pluginDirPath "META-INF\plugin.xml"
 Copy-Item -Path ".\idea-plugin.xml" -Destination $ideaPluginMetaPath
