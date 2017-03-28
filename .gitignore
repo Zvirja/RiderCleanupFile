@@ -291,5 +291,5 @@ __pycache__/
 *.zip
 
 # Build artifacts
-/artifacts/
-/build/Temp
+/build/temp
+/build/artifacts/
