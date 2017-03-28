@@ -1,5 +1,5 @@
 param(
-    [Parameter(Mandatory=$false)][string]$version = "1.0.0.0",
+    [Parameter(Mandatory=$false)][string]$version = "1.0.0",
     [Parameter(Mandatory=$false)][string]$config="Debug",
     [Parameter(Mandatory=$false)][switch]$skipBuild
 )
@@ -18,17 +18,16 @@ function Get-MSBuildExe() {
 
 $projectName = "AlexPovar.RiderCleanupFile"
 
-$msBuildPath = Get-MSBuildExe;
-if(-not $msBuildPath) {
-    Write-Host "Unable to locate MSBuild" -ForegroundColor "Red"
-    return
-}
+if(-NOT $skipBuild.IsPresent) {
+    $msBuildPath = Get-MSBuildExe;
+    if(-not $msBuildPath) {
+        Write-Host "Unable to locate MSBuild" -ForegroundColor "Red"
+        return
+    }
 
-Write-Host "Detected MSBuild: $msBuildPath" -ForegroundColor "Gray"
+    Write-Host "Detected MSBuild: $msBuildPath" -ForegroundColor "Gray"
 
-& .\nuget.exe restore "..\code\$projectName.sln"
-
-if(-NOT $skipBuild.IsPresent){
+    & .\nuget.exe restore "..\code\$projectName.sln"
     & $msBuildPath "..\code\$projectName.sln" "/t:Build" "/p:Configuration=$config" "/verbosity:minimal"
 }
 
@@ -54,10 +53,7 @@ Select-Xml -xml $pluginMetaDoc -XPath //idea-plugin/version | ForEach-Object { $
 $pluginMetaDoc.Save($ideaPluginMetaPath)
 
 Push-Location $tmpDirPath
-..\7za.exe a "..\artifacts\RiderCleanupFile.$version.zip" "RiderCleanupFile"
+& ..\7za.exe a "..\artifacts\RiderCleanupFile.$version.zip" "RiderCleanupFile"
 Pop-Location
 
-#Add-Type -Assembly "System.IO.Compression.FileSystem" ;
-#[System.IO.Compression.ZipFile]::CreateFromDirectory($pluginDirPath,  "$outputDir\RiderCleanupFile.$version.zip") 
-#Compress-Archive -Path $pluginDirPath -DestinationPath "$outputDir\RiderCleanupFile.$version.zip" -Force
-#Remove-Item -Recurse -Force -Path $tmpDirPath 
+Remove-Item -Recurse -Force -Path $tmpDirPath 

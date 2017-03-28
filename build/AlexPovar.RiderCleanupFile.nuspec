@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>AlexPovar.RiderCleanupFile</id>
-    <version>1.0.0.0</version>
+    <version>1.0.0</version>
     <authors>Alex Povar</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Cleanup file quick action for Rider</description>
+    <description>Quick action for Rider to add "Cleanup this file" quick action.</description>
     
     <dependencies>
       <dependency id="Wave" version="8.0" />
