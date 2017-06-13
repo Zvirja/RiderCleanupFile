@@ -1,5 +1,5 @@
 param(
-    [Parameter(Mandatory=$false)][string]$version = "1.0.0",
+    [Parameter(Mandatory=$false)][string]$version = "1.0.1",
     [Parameter(Mandatory=$false)][string]$config="Debug",
     [Parameter(Mandatory=$false)][switch]$skipBuild
 )

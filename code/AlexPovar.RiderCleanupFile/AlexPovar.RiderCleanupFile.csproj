@@ -2,408 +2,55 @@
 
   <PropertyGroup>
     <TargetFramework>net45</TargetFramework>
+    <SdkDir>C:\Program Files\JetBrains\Rider 171.4456.199\lib\ReSharperHost\</SdkDir>
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="antlr.runtime">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\antlr.runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Appccelerate.Fundamentals">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\Appccelerate.Fundamentals.dll</HintPath>
-    </Reference>
-    <Reference Include="Appccelerate.StateMachine">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\Appccelerate.StateMachine.dll</HintPath>
-    </Reference>
-    <Reference Include="CookComputing.XmlRpcV2">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\CookComputing.XmlRpcV2.dll</HintPath>
-    </Reference>
-    <Reference Include="CorApi">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\CorApi.dll</HintPath>
-    </Reference>
-    <Reference Include="CorApi2">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\CorApi2.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Data.v7.1">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\DevExpress.Data.v7.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Utils.v7.1">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\DevExpress.Utils.v7.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraEditors.v7.1">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\DevExpress.XtraEditors.v7.1.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraTreeList.v7.1">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\DevExpress.XtraTreeList.v7.1.dll</HintPath>
-    </Reference>
-    <Reference Include="dotMemory.Unit">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\dotMemory.Unit.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.NRefactory">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\ICSharpCode.NRefactory.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.NRefactory.Cecil">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\ICSharpCode.NRefactory.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.NRefactory.CSharp">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\ICSharpCode.NRefactory.CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.NRefactory.Xml">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\ICSharpCode.NRefactory.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="Ionic.Zip.Reduced">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\Ionic.Zip.Reduced.dll</HintPath>
-    </Reference>
     <Reference Include="JetBrains.Annotations">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Annotations.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.CommandLine.Common.Console">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.CommandLine.Common.Console.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.CommandLine.InspectCode.MsBuild">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.CommandLine.InspectCode.MsBuild.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Debugger.Host">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Debugger.Host.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Decompiler.Core">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Decompiler.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.dotMemoryUnit.Interop">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.dotMemoryUnit.Interop.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.dotMemoryUnit.Interop.Ide">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.dotMemoryUnit.Interop.Ide.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.MSBuild.Logger">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.MSBuild.Logger.dll</HintPath>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="JetBrains.Platform.BuildEngine">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.BuildEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.BuildInterfaces">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.BuildInterfaces.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.Annotations.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.Platform.ComponentModel">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.ComponentModel.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.Platform.ComponentModel.dll</HintPath>
     </Reference>
-    <Reference Include="JetBrains.Platform.Diagramming">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.Diagramming.dll</HintPath>
+    <Reference Include="JetBrains.Platform.Core">
+      <HintPath>$(SdkDir)JetBrains.Platform.Core.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.Platform.DocumentManager">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.DocumentManager.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.Platform.DocumentManager.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.Platform.DocumentModel">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.DocumentModel.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.Ide">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.Ide.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.Interop.WinApi">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.Interop.WinApi.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.Metadata">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.Metadata.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.MsBuild.TaskCommon">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.MsBuild.TaskCommon.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.MsBuildHost">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.MsBuildHost.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.MsBuildTask">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.MsBuildTask.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.Platform.DocumentModel.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.Platform.ProjectModel">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.ProjectModel.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.ProjectModel.Host">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.ProjectModel.Host.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.ProjectModel.NuGet">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.ProjectModel.NuGet.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.RdFramework">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.RdFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.RdProtocol">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.RdProtocol.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.Platform.ProjectModel.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.Platform.Shell">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.Shell.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.Shell.SinceClr4">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.Shell.SinceClr4.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.Symbols">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.Symbols.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.Platform.Shell.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.Platform.TextControl">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.TextControl.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Platform.UI">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.UI.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.Platform.TextControl.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.Platform.Util">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Platform.Util.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Psi.Features.Tasks.Build">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Psi.Features.Tasks.Build.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.Psi.Features.UI">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.Psi.Features.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Daemon">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Daemon.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Daemon.BuildScripts">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Daemon.BuildScripts.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Daemon.CSharp">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Daemon.CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Daemon.Engine">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Daemon.Engine.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Daemon.Protobuf">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Daemon.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Daemon.Resx">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Daemon.Resx.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Daemon.Specific">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Daemon.Specific.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Daemon.VB">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Daemon.VB.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Daemon.Web">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Daemon.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Daemon.Xaml">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Daemon.Xaml.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Daemon.Xml">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Daemon.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.ExternalSources">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.ExternalSources.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.Platform.Util.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.ReSharper.Feature.Services">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Feature.Services.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Feature.Services.BuildScripts">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Feature.Services.BuildScripts.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.ReSharper.Feature.Services.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.ReSharper.Feature.Services.CSharp">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Feature.Services.CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Feature.Services.ExternalSources">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Feature.Services.ExternalSources.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Feature.Services.ExternalSources.CSharp">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Feature.Services.ExternalSources.CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Feature.Services.ExternalSources.VB">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Feature.Services.ExternalSources.VB.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Feature.Services.Protobuf">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Feature.Services.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Feature.Services.Resx">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Feature.Services.Resx.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Feature.Services.VB">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Feature.Services.VB.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Feature.Services.Web">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Feature.Services.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Feature.Services.Xaml">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Feature.Services.Xaml.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Feature.Services.Xml">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Feature.Services.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.Altering">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.Altering.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.Diagramming">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.Diagramming.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.Environment">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.Environment.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.Inspections">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.Inspections.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.Intellisense">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.Intellisense.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.Intellisense.VB">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.Intellisense.VB.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.Internal">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.Internal.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.Navigation">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.Navigation.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.Navigation.VB">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.Navigation.VB.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.NuGet">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.NuGet.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.RegExp">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.RegExp.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.SolBuilderDuo">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.SolBuilderDuo.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.SolBuilderDuo.UI">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.SolBuilderDuo.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.StructuralSearch">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.StructuralSearch.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.Web">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Features.Xml">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Features.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.I18n.Services">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.I18n.Services.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.I18n.Services.Asp">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.I18n.Services.Asp.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.I18n.Services.Asp.CSharp">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.I18n.Services.Asp.CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.I18n.Services.Asp.VB">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.I18n.Services.Asp.VB.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.I18n.Services.CSharp">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.I18n.Services.CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.I18n.Services.JavaScript">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.I18n.Services.JavaScript.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.I18n.Services.VB">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.I18n.Services.VB.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.I18n.Services.Xaml">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.I18n.Services.Xaml.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.InplaceRefactorings">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.InplaceRefactorings.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.ReSharper.Feature.Services.CSharp.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.ReSharper.Intentions">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Intentions.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Intentions.BuildScripts">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Intentions.BuildScripts.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Intentions.CSharp">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Intentions.CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Intentions.Resx">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Intentions.Resx.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Intentions.VB">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Intentions.VB.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Intentions.Web">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Intentions.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Intentions.Xaml">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Intentions.Xaml.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Intentions.Xml">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Intentions.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.LiveTemplates">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.LiveTemplates.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.LiveTemplates.VB">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.LiveTemplates.VB.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.MsBuildEventLogger">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.MsBuildEventLogger.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.NewRefactorings">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.NewRefactorings.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.ReSharper.Intentions.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.ReSharper.Psi">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Psi.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Psi.BuildScripts">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Psi.BuildScripts.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.ReSharper.Psi.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.ReSharper.Psi.CSharp">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Psi.CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Psi.IL">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Psi.IL.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Psi.Protobuf">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Psi.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Psi.RegExp">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Psi.RegExp.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Psi.Resx">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Psi.Resx.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Psi.VB">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Psi.VB.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Psi.VB.ConstantCalculatorLib">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Psi.VB.ConstantCalculatorLib.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Psi.Web">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Psi.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Psi.Xaml">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Psi.Xaml.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Psi.Xml">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Psi.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Refactorings.BuildScripts">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Refactorings.BuildScripts.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Refactorings.CSharp">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Refactorings.CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Refactorings.Html">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Refactorings.Html.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Refactorings.VB">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Refactorings.VB.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.Refactorings.Xaml">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Refactorings.Xaml.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.ReSharper.Psi.CSharp.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.ReSharper.Resources">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.Resources.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.SolutionAnalysis">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.SolutionAnalysis.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.SolutionAnalysis.UI">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.SolutionAnalysis.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="JetBrains.ReSharper.TaskRunnerFramework">
-      <HintPath>C:\Program Files (x86)\JetBrains\Rider 171.3655.1246\lib\ReSharperHost\JetBrains.ReSharper.TaskRunnerFramework.dll</HintPath>
+      <HintPath>$(SdkDir)JetBrains.ReSharper.Resources.dll</HintPath>
     </Reference>
   </ItemGroup>
-
-
 
 </Project>
